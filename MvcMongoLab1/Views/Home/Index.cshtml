@@ -1,0 +1,18 @@
+﻿@model MvcMongoLab1.Models.WebPageView
+@{
+    ViewBag.Title = "Index";
+}
+<script type="text/javascript">
+    function getText() {
+        
+    }        
+</script>
+
+<h2>Index</h2>
+    @using (Html.BeginForm())
+    {
+        <div>Url: @Html.EditorFor(x => x.Url)</div>
+               
+        <input type="submit" onclick="getText()" value="Save" />
+    }
+

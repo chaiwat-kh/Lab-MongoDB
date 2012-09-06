@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="84873447-4470-440e-9a2a-c58b16fd3cb0" name="Chaiwat.Kh@PC_011 2012-07-04 10:19:46" runUser="CARPASSAD\Chaiwat.Kh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5bac8435-d6ae-4e0c-b733-432b232c72d8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chaiwat.Kh_PC_011 2012-07-04 10_19_46">
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab\lib\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab2\lib\MongoDB.Driver.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab2\lib\DomainLib.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\lib\MongoDB.Bson.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab\lib\MongoDB.Driver.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab\lib\DomainLib.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab2\lib\MongoDB.Bson.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\lib\MongoDB.Driver.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab\lib\CarPass.Dcm.Helpers.dll" />
+      <DeploymentItem filename="D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MongoLab\lib\MongoDB.Bson.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-04T10:19:46.6178735+07:00" queuing="2012-07-04T10:19:49.0744417+07:00" start="2012-07-04T10:19:49.2143728+07:00" finish="2012-07-04T10:19:51.4221746+07:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="38" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="37" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestReadAllGridFS2Text" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="ed6bca81-c788-3c2c-a4af-0d1c3a3c14ad">
+      <Execution id="50f17dba-024c-49d1-b773-d2c6c64dd31f" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestGridFS, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReadAllGridFS2Text" />
+    </UnitTest>
+    <UnitTest name="TestReadGridFS2Array" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="45cc1fe6-8a65-5f42-9f66-6a5dc9228324">
+      <Execution id="0489494b-29c5-4d2a-bd06-0339c676cc45" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestGridFS, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReadGridFS2Array" />
+    </UnitTest>
+    <UnitTest name="TestBson" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="73356870-63aa-932e-32d7-e670d3ce14db">
+      <Execution id="c3f7a612-03cf-48cf-93a4-1ef4f0dc5d83" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.UnitTest1, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBson" />
+    </UnitTest>
+    <UnitTest name="GetDataFromSlave" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="0b0f010b-7a9c-aa9e-e845-a8a639d39a50">
+      <Execution id="d562b018-fb7a-424e-9c9e-ebd3f1323411" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestCluster, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDataFromSlave" />
+    </UnitTest>
+    <UnitTest name="SimpleExampleRemoveHTMLjvsFunc" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="19d95108-7e95-fac7-03b4-d3977f019448">
+      <Execution id="7a56de13-ea84-4951-816b-f88195a67706" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleExampleRemoveHTMLjvsFunc" />
+    </UnitTest>
+    <UnitTest name="TestShardFindData" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="def8b6cf-69e1-3473-452d-d042d0868394">
+      <Execution id="ddf9578b-7f31-41a8-ad9b-d9159b261253" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestShardFindData" />
+    </UnitTest>
+    <UnitTest name="TestUploadStreamFile2GridFS" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="cba52b08-c707-9ba8-8662-2a472e1be74b">
+      <Execution id="594f8d66-9be9-4be7-ab76-64270f504f5a" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestGridFS, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUploadStreamFile2GridFS" />
+    </UnitTest>
+    <UnitTest name="TestInsertData2" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="12ab4f6a-11a4-7386-d60d-8fe3bea46920">
+      <Execution id="48643043-59b2-4f2a-9f12-d14321e4d78e" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertData2" />
+    </UnitTest>
+    <UnitTest name="InsertData" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="317416ba-e139-71c7-38f5-c512fc3774d5">
+      <Execution id="b8e6da40-9e66-428a-a3d0-acb082fd2dfe" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestCluster, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertData" />
+    </UnitTest>
+    <UnitTest name="TestMongoDBLinq" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="caeebbbb-158b-b3bf-ec84-0636e12687cd">
+      <Execution id="101a9b10-2379-41a6-92cf-fa753a355607" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.UnitTest1, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMongoDBLinq" />
+    </UnitTest>
+    <UnitTest name="SimpleExampleAddFunction" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="709e3245-72e8-5bb2-7526-d826edc3ba98">
+      <Execution id="017e9c19-915d-4eb9-8a01-aaace9f366bc" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleExampleAddFunction" />
+    </UnitTest>
+    <UnitTest name="TestMongoDB_diff_field" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="8207f8a6-1462-cb96-ed9c-68a34cf3f26b">
+      <Execution id="acb4d356-dc56-40e9-acf9-86d527a370d9" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.UnitTest1, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMongoDB_diff_field" />
+    </UnitTest>
+    <UnitTest name="TestCountData" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="821624f9-dd43-897e-2dce-c8105aafb304">
+      <Execution id="4ffe728d-5279-42ff-80c9-9c13764cd433" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCountData" />
+    </UnitTest>
+    <UnitTest name="TestCreateMapReduceFunction" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="884b552d-5837-c079-125b-585bccbb6059">
+      <Execution id="9d9d0e19-9b90-4eb8-a849-3e3b6ae3d377" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCreateMapReduceFunction" />
+    </UnitTest>
+    <UnitTest name="TestGetMasterNslave" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="1a65ad5f-a9b4-d967-87e4-a71d9503be95">
+      <Execution id="54f48cb5-1593-4112-9b0a-2e33ff0c606e" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetMasterNslave" />
+    </UnitTest>
+    <UnitTest name="TestFindData" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="f8557587-57a0-7283-3833-41196e3e9f7b">
+      <Execution id="097aa03c-5e0c-4e01-bd0f-da47efa1a0a1" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFindData" />
+    </UnitTest>
+    <UnitTest name="InsertILoveYouToSimpleExmaple" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="2cd9c735-fb2e-888e-a21c-93e2a5500266">
+      <Execution id="6d5519ce-962c-4e14-8f89-b3859db48ca3" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertILoveYouToSimpleExmaple" />
+    </UnitTest>
+    <UnitTest name="SimpleExample" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="685a91d2-d579-6a36-c069-33699a2b05c4">
+      <Execution id="eaa674b0-089b-4fee-a4b1-1b28ca221e91" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleExample" />
+    </UnitTest>
+    <UnitTest name="GetDataFromCluster" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="66686456-b64d-b294-86a0-e597b54f68d7">
+      <Execution id="457fedc1-b7ed-46e0-8913-48625e8cafaa" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestCluster, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDataFromCluster" />
+    </UnitTest>
+    <UnitTest name="TestControl" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="f82ab0ea-0ca4-f71c-dc03-0651c2d5d57f">
+      <Execution id="dae78cc8-d2b6-45f8-9a02-2e1bf2150bdb" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestControl" />
+    </UnitTest>
+    <UnitTest name="GetDataFromReplica" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="a9fb74f3-e078-a2cd-8f57-7931c7777f5a">
+      <Execution id="e3f7bc86-733f-424a-b262-025aabdb4cf0" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestCluster, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDataFromReplica" />
+    </UnitTest>
+    <UnitTest name="TestReadAllGridFS2TextAndAddText" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="9760a614-98d9-386d-16aa-b48f21b11be6">
+      <Execution id="1f653b8a-964c-4d86-8045-aea449151534" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestGridFS, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReadAllGridFS2TextAndAddText" />
+    </UnitTest>
+    <UnitTest name="TestFindMapReduceResult" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="1782a3dd-6ec3-a4d5-a326-1d5703c67e76">
+      <Execution id="5384d841-66c4-47b7-87a2-a0f29bb01e23" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFindMapReduceResult" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\domainlib\bin\debug\domainlib.dll" id="de0d77e4-5745-062c-e148-f5cc4366f160">
+      <Execution id="2a0aa987-94ea-43cc-8f7e-e91663b90303" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/DomainLib/bin/Debug/DomainLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DomainLib.UnitTest1, DomainLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestReduceMachineName" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="4ef6970a-30cb-fc6a-16e9-721b435d066b">
+      <Execution id="bcb93f9a-fc9c-473f-8d09-79139ba5e80d" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.MapReduceTest, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReduceMachineName" />
+    </UnitTest>
+    <UnitTest name="TestInsertDataMasterNslave" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="f89df7be-0ab9-5676-96c1-ab7eb853ec67">
+      <Execution id="5c398795-97f0-4bde-b1f6-bf55ee3b2f95" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertDataMasterNslave" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab2\bin\debug\mongolab2.dll" id="cd5a0fbe-0be8-3641-2c8f-1c17c1eef6e8">
+      <Execution id="de3e808a-926a-47be-9ea7-dbf937b1f9d4" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab2/bin/Debug/MongoLab2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab2.UnitTest1, MongoLab2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMongoDB" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="a8df9884-5ee0-a48b-ce88-8b51f3bea312">
+      <Execution id="d62235ba-1b75-4679-9eac-9f6c8690d608" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.UnitTest1, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMongoDB" />
+    </UnitTest>
+    <UnitTest name="SimpleExampleClearHtml" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="4b4c8c8c-41a8-9add-5108-7ae7547a111a">
+      <Execution id="1a56b4e1-02d2-420a-b795-6dcb43484db1" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleExampleClearHtml" />
+    </UnitTest>
+    <UnitTest name="TestReduceMachineNameAndDate" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="ff8ce95e-cab3-a2a8-503c-30d4521984d8">
+      <Execution id="7de2f78c-9001-478e-8d49-8083920552c6" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.MapReduceTest, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReduceMachineNameAndDate" />
+    </UnitTest>
+    <UnitTest name="TestGetLogsDcm" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="57272a5c-289a-f1f0-09c6-9bcd4ee838ed">
+      <Execution id="d264c028-20c6-4300-a60c-a26c974468c0" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetLogsDcm" />
+    </UnitTest>
+    <UnitTest name="TestUploadArrayFile2GridFS" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="50589e3d-3716-03dd-10dd-7e82fce5e995">
+      <Execution id="926bccb1-ae61-4ba5-8dc6-0802a2611f4d" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestGridFS, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUploadArrayFile2GridFS" />
+    </UnitTest>
+    <UnitTest name="TestRemoveAllGFSandDelete" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="73a105d7-2f1d-133f-7b7a-559e46ddf277">
+      <Execution id="7395f5ad-f7fc-4bd9-abf8-ebc67461eff2" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestGridFS, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemoveAllGFSandDelete" />
+    </UnitTest>
+    <UnitTest name="TestFindMapReduceData" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="7db4a7e4-f0eb-f502-6cf9-d88036be848a">
+      <Execution id="845305d0-251d-4997-b4ba-54117d181bb7" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.MapReduceTest, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFindMapReduceData" />
+    </UnitTest>
+    <UnitTest name="LoadAndSaveToMongoHttp" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="3659beb9-7fdd-811d-f287-c1e8f73de017">
+      <Execution id="185ff8dd-6eb6-48ef-b8c4-09b01ed63241" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadAndSaveToMongoHttp" />
+    </UnitTest>
+    <UnitTest name="LoadClearHtml" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="9f9ec419-81ce-68ed-d6c4-f15dced7997d">
+      <Execution id="cbe6e57e-cd01-4ea0-ac40-b7c8ca6925dc" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadClearHtml" />
+    </UnitTest>
+    <UnitTest name="TestInsertData" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="c466e222-0dfe-9bf5-10ea-3d7647a8acde">
+      <Execution id="f50c4031-4744-43f1-864c-55b71c030ecb" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.TestShare, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertData" />
+    </UnitTest>
+    <UnitTest name="TestReduceMachineNameAndDateOri" storage="d:\documents and settings\chaiwat.kh\my documents\visual studio 2010\projects\mongolab\mongolab\bin\debug\mongolab.dll" id="d9bc4736-c4be-79d5-a526-a833dcb55b07">
+      <Execution id="a5db7567-f31a-4395-8c11-36b7f7431350" />
+      <TestMethod codeBase="D:/Documents and Settings/chaiwat.kh/My Documents/Visual Studio 2010/Projects/MongoLab/MongoLab/bin/Debug/MongoLab.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MongoLab.MapReduceTest, MongoLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestReduceMachineNameAndDateOri" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b0f010b-7a9c-aa9e-e845-a8a639d39a50" executionId="d562b018-fb7a-424e-9c9e-ebd3f1323411" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12ab4f6a-11a4-7386-d60d-8fe3bea46920" executionId="48643043-59b2-4f2a-9f12-d14321e4d78e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1782a3dd-6ec3-a4d5-a326-1d5703c67e76" executionId="5384d841-66c4-47b7-87a2-a0f29bb01e23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d95108-7e95-fac7-03b4-d3977f019448" executionId="7a56de13-ea84-4951-816b-f88195a67706" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a65ad5f-a9b4-d967-87e4-a71d9503be95" executionId="54f48cb5-1593-4112-9b0a-2e33ff0c606e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cd9c735-fb2e-888e-a21c-93e2a5500266" executionId="6d5519ce-962c-4e14-8f89-b3859db48ca3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="317416ba-e139-71c7-38f5-c512fc3774d5" executionId="b8e6da40-9e66-428a-a3d0-acb082fd2dfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3659beb9-7fdd-811d-f287-c1e8f73de017" executionId="185ff8dd-6eb6-48ef-b8c4-09b01ed63241" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45cc1fe6-8a65-5f42-9f66-6a5dc9228324" executionId="0489494b-29c5-4d2a-bd06-0339c676cc45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b4c8c8c-41a8-9add-5108-7ae7547a111a" executionId="1a56b4e1-02d2-420a-b795-6dcb43484db1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ef6970a-30cb-fc6a-16e9-721b435d066b" executionId="bcb93f9a-fc9c-473f-8d09-79139ba5e80d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50589e3d-3716-03dd-10dd-7e82fce5e995" executionId="926bccb1-ae61-4ba5-8dc6-0802a2611f4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57272a5c-289a-f1f0-09c6-9bcd4ee838ed" executionId="d264c028-20c6-4300-a60c-a26c974468c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66686456-b64d-b294-86a0-e597b54f68d7" executionId="457fedc1-b7ed-46e0-8913-48625e8cafaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="685a91d2-d579-6a36-c069-33699a2b05c4" executionId="eaa674b0-089b-4fee-a4b1-1b28ca221e91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="709e3245-72e8-5bb2-7526-d826edc3ba98" executionId="017e9c19-915d-4eb9-8a01-aaace9f366bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73356870-63aa-932e-32d7-e670d3ce14db" executionId="c3f7a612-03cf-48cf-93a4-1ef4f0dc5d83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73a105d7-2f1d-133f-7b7a-559e46ddf277" executionId="7395f5ad-f7fc-4bd9-abf8-ebc67461eff2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7db4a7e4-f0eb-f502-6cf9-d88036be848a" executionId="845305d0-251d-4997-b4ba-54117d181bb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8207f8a6-1462-cb96-ed9c-68a34cf3f26b" executionId="acb4d356-dc56-40e9-acf9-86d527a370d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="821624f9-dd43-897e-2dce-c8105aafb304" executionId="4ffe728d-5279-42ff-80c9-9c13764cd433" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="884b552d-5837-c079-125b-585bccbb6059" executionId="9d9d0e19-9b90-4eb8-a849-3e3b6ae3d377" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9760a614-98d9-386d-16aa-b48f21b11be6" executionId="1f653b8a-964c-4d86-8045-aea449151534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f9ec419-81ce-68ed-d6c4-f15dced7997d" executionId="cbe6e57e-cd01-4ea0-ac40-b7c8ca6925dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8df9884-5ee0-a48b-ce88-8b51f3bea312" executionId="d62235ba-1b75-4679-9eac-9f6c8690d608" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9fb74f3-e078-a2cd-8f57-7931c7777f5a" executionId="e3f7bc86-733f-424a-b262-025aabdb4cf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c466e222-0dfe-9bf5-10ea-3d7647a8acde" executionId="f50c4031-4744-43f1-864c-55b71c030ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caeebbbb-158b-b3bf-ec84-0636e12687cd" executionId="101a9b10-2379-41a6-92cf-fa753a355607" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cba52b08-c707-9ba8-8662-2a472e1be74b" executionId="594f8d66-9be9-4be7-ab76-64270f504f5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd5a0fbe-0be8-3641-2c8f-1c17c1eef6e8" executionId="de3e808a-926a-47be-9ea7-dbf937b1f9d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9bc4736-c4be-79d5-a526-a833dcb55b07" executionId="a5db7567-f31a-4395-8c11-36b7f7431350" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de0d77e4-5745-062c-e148-f5cc4366f160" executionId="2a0aa987-94ea-43cc-8f7e-e91663b90303" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="def8b6cf-69e1-3473-452d-d042d0868394" executionId="ddf9578b-7f31-41a8-ad9b-d9159b261253" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed6bca81-c788-3c2c-a4af-0d1c3a3c14ad" executionId="50f17dba-024c-49d1-b773-d2c6c64dd31f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f82ab0ea-0ca4-f71c-dc03-0651c2d5d57f" executionId="dae78cc8-d2b6-45f8-9a02-2e1bf2150bdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8557587-57a0-7283-3833-41196e3e9f7b" executionId="097aa03c-5e0c-4e01-bd0f-da47efa1a0a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f89df7be-0ab9-5676-96c1-ab7eb853ec67" executionId="5c398795-97f0-4bde-b1f6-bf55ee3b2f95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff8ce95e-cab3-a2a8-503c-30d4521984d8" executionId="7de2f78c-9001-478e-8d49-8083920552c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d562b018-fb7a-424e-9c9e-ebd3f1323411" testId="0b0f010b-7a9c-aa9e-e845-a8a639d39a50" testName="GetDataFromSlave" computerName="PC_011" duration="00:00:01.3215715" startTime="2012-07-04T10:19:49.2454686+07:00" endTime="2012-07-04T10:19:50.5670401+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d562b018-fb7a-424e-9c9e-ebd3f1323411">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="48643043-59b2-4f2a-9f12-d14321e4d78e" testId="12ab4f6a-11a4-7386-d60d-8fe3bea46920" testName="TestInsertData2" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48643043-59b2-4f2a-9f12-d14321e4d78e">
+    </UnitTestResult>
+    <UnitTestResult executionId="5384d841-66c4-47b7-87a2-a0f29bb01e23" testId="1782a3dd-6ec3-a4d5-a326-1d5703c67e76" testName="TestFindMapReduceResult" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5384d841-66c4-47b7-87a2-a0f29bb01e23">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a56de13-ea84-4951-816b-f88195a67706" testId="19d95108-7e95-fac7-03b4-d3977f019448" testName="SimpleExampleRemoveHTMLjvsFunc" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a56de13-ea84-4951-816b-f88195a67706">
+    </UnitTestResult>
+    <UnitTestResult executionId="54f48cb5-1593-4112-9b0a-2e33ff0c606e" testId="1a65ad5f-a9b4-d967-87e4-a71d9503be95" testName="TestGetMasterNslave" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54f48cb5-1593-4112-9b0a-2e33ff0c606e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d5519ce-962c-4e14-8f89-b3859db48ca3" testId="2cd9c735-fb2e-888e-a21c-93e2a5500266" testName="InsertILoveYouToSimpleExmaple" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d5519ce-962c-4e14-8f89-b3859db48ca3">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8e6da40-9e66-428a-a3d0-acb082fd2dfe" testId="317416ba-e139-71c7-38f5-c512fc3774d5" testName="InsertData" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8e6da40-9e66-428a-a3d0-acb082fd2dfe">
+    </UnitTestResult>
+    <UnitTestResult executionId="185ff8dd-6eb6-48ef-b8c4-09b01ed63241" testId="3659beb9-7fdd-811d-f287-c1e8f73de017" testName="LoadAndSaveToMongoHttp" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="185ff8dd-6eb6-48ef-b8c4-09b01ed63241">
+    </UnitTestResult>
+    <UnitTestResult executionId="0489494b-29c5-4d2a-bd06-0339c676cc45" testId="45cc1fe6-8a65-5f42-9f66-6a5dc9228324" testName="TestReadGridFS2Array" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0489494b-29c5-4d2a-bd06-0339c676cc45">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a56b4e1-02d2-420a-b795-6dcb43484db1" testId="4b4c8c8c-41a8-9add-5108-7ae7547a111a" testName="SimpleExampleClearHtml" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a56b4e1-02d2-420a-b795-6dcb43484db1">
+    </UnitTestResult>
+    <UnitTestResult executionId="bcb93f9a-fc9c-473f-8d09-79139ba5e80d" testId="4ef6970a-30cb-fc6a-16e9-721b435d066b" testName="TestReduceMachineName" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcb93f9a-fc9c-473f-8d09-79139ba5e80d">
+    </UnitTestResult>
+    <UnitTestResult executionId="926bccb1-ae61-4ba5-8dc6-0802a2611f4d" testId="50589e3d-3716-03dd-10dd-7e82fce5e995" testName="TestUploadArrayFile2GridFS" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926bccb1-ae61-4ba5-8dc6-0802a2611f4d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d264c028-20c6-4300-a60c-a26c974468c0" testId="57272a5c-289a-f1f0-09c6-9bcd4ee838ed" testName="TestGetLogsDcm" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d264c028-20c6-4300-a60c-a26c974468c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="457fedc1-b7ed-46e0-8913-48625e8cafaa" testId="66686456-b64d-b294-86a0-e597b54f68d7" testName="GetDataFromCluster" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="457fedc1-b7ed-46e0-8913-48625e8cafaa">
+    </UnitTestResult>
+    <UnitTestResult executionId="eaa674b0-089b-4fee-a4b1-1b28ca221e91" testId="685a91d2-d579-6a36-c069-33699a2b05c4" testName="SimpleExample" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaa674b0-089b-4fee-a4b1-1b28ca221e91">
+    </UnitTestResult>
+    <UnitTestResult executionId="017e9c19-915d-4eb9-8a01-aaace9f366bc" testId="709e3245-72e8-5bb2-7526-d826edc3ba98" testName="SimpleExampleAddFunction" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="017e9c19-915d-4eb9-8a01-aaace9f366bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="c3f7a612-03cf-48cf-93a4-1ef4f0dc5d83" testId="73356870-63aa-932e-32d7-e670d3ce14db" testName="TestBson" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3f7a612-03cf-48cf-93a4-1ef4f0dc5d83">
+    </UnitTestResult>
+    <UnitTestResult executionId="7395f5ad-f7fc-4bd9-abf8-ebc67461eff2" testId="73a105d7-2f1d-133f-7b7a-559e46ddf277" testName="TestRemoveAllGFSandDelete" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7395f5ad-f7fc-4bd9-abf8-ebc67461eff2">
+    </UnitTestResult>
+    <UnitTestResult executionId="845305d0-251d-4997-b4ba-54117d181bb7" testId="7db4a7e4-f0eb-f502-6cf9-d88036be848a" testName="TestFindMapReduceData" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="845305d0-251d-4997-b4ba-54117d181bb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="acb4d356-dc56-40e9-acf9-86d527a370d9" testId="8207f8a6-1462-cb96-ed9c-68a34cf3f26b" testName="TestMongoDB_diff_field" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acb4d356-dc56-40e9-acf9-86d527a370d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ffe728d-5279-42ff-80c9-9c13764cd433" testId="821624f9-dd43-897e-2dce-c8105aafb304" testName="TestCountData" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ffe728d-5279-42ff-80c9-9c13764cd433">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d9d0e19-9b90-4eb8-a849-3e3b6ae3d377" testId="884b552d-5837-c079-125b-585bccbb6059" testName="TestCreateMapReduceFunction" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d9d0e19-9b90-4eb8-a849-3e3b6ae3d377">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f653b8a-964c-4d86-8045-aea449151534" testId="9760a614-98d9-386d-16aa-b48f21b11be6" testName="TestReadAllGridFS2TextAndAddText" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f653b8a-964c-4d86-8045-aea449151534">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbe6e57e-cd01-4ea0-ac40-b7c8ca6925dc" testId="9f9ec419-81ce-68ed-d6c4-f15dced7997d" testName="LoadClearHtml" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbe6e57e-cd01-4ea0-ac40-b7c8ca6925dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="d62235ba-1b75-4679-9eac-9f6c8690d608" testId="a8df9884-5ee0-a48b-ce88-8b51f3bea312" testName="TestMongoDB" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d62235ba-1b75-4679-9eac-9f6c8690d608">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3f7bc86-733f-424a-b262-025aabdb4cf0" testId="a9fb74f3-e078-a2cd-8f57-7931c7777f5a" testName="GetDataFromReplica" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3f7bc86-733f-424a-b262-025aabdb4cf0">
+    </UnitTestResult>
+    <UnitTestResult executionId="f50c4031-4744-43f1-864c-55b71c030ecb" testId="c466e222-0dfe-9bf5-10ea-3d7647a8acde" testName="TestInsertData" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f50c4031-4744-43f1-864c-55b71c030ecb">
+    </UnitTestResult>
+    <UnitTestResult executionId="101a9b10-2379-41a6-92cf-fa753a355607" testId="caeebbbb-158b-b3bf-ec84-0636e12687cd" testName="TestMongoDBLinq" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="101a9b10-2379-41a6-92cf-fa753a355607">
+    </UnitTestResult>
+    <UnitTestResult executionId="594f8d66-9be9-4be7-ab76-64270f504f5a" testId="cba52b08-c707-9ba8-8662-2a472e1be74b" testName="TestUploadStreamFile2GridFS" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="594f8d66-9be9-4be7-ab76-64270f504f5a">
+    </UnitTestResult>
+    <UnitTestResult executionId="de3e808a-926a-47be-9ea7-dbf937b1f9d4" testId="cd5a0fbe-0be8-3641-2c8f-1c17c1eef6e8" testName="TestMethod1" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de3e808a-926a-47be-9ea7-dbf937b1f9d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5db7567-f31a-4395-8c11-36b7f7431350" testId="d9bc4736-c4be-79d5-a526-a833dcb55b07" testName="TestReduceMachineNameAndDateOri" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5db7567-f31a-4395-8c11-36b7f7431350">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a0aa987-94ea-43cc-8f7e-e91663b90303" testId="de0d77e4-5745-062c-e148-f5cc4366f160" testName="TestMethod1" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a0aa987-94ea-43cc-8f7e-e91663b90303">
+    </UnitTestResult>
+    <UnitTestResult executionId="ddf9578b-7f31-41a8-ad9b-d9159b261253" testId="def8b6cf-69e1-3473-452d-d042d0868394" testName="TestShardFindData" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddf9578b-7f31-41a8-ad9b-d9159b261253">
+    </UnitTestResult>
+    <UnitTestResult executionId="50f17dba-024c-49d1-b773-d2c6c64dd31f" testId="ed6bca81-c788-3c2c-a4af-0d1c3a3c14ad" testName="TestReadAllGridFS2Text" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50f17dba-024c-49d1-b773-d2c6c64dd31f">
+    </UnitTestResult>
+    <UnitTestResult executionId="dae78cc8-d2b6-45f8-9a02-2e1bf2150bdb" testId="f82ab0ea-0ca4-f71c-dc03-0651c2d5d57f" testName="TestControl" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dae78cc8-d2b6-45f8-9a02-2e1bf2150bdb">
+    </UnitTestResult>
+    <UnitTestResult executionId="097aa03c-5e0c-4e01-bd0f-da47efa1a0a1" testId="f8557587-57a0-7283-3833-41196e3e9f7b" testName="TestFindData" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="097aa03c-5e0c-4e01-bd0f-da47efa1a0a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c398795-97f0-4bde-b1f6-bf55ee3b2f95" testId="f89df7be-0ab9-5676-96c1-ab7eb853ec67" testName="TestInsertDataMasterNslave" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c398795-97f0-4bde-b1f6-bf55ee3b2f95">
+    </UnitTestResult>
+    <UnitTestResult executionId="7de2f78c-9001-478e-8d49-8083920552c6" testId="ff8ce95e-cab3-a2a8-503c-30d4521984d8" testName="TestReduceMachineNameAndDate" computerName="PC_011" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7de2f78c-9001-478e-8d49-8083920552c6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

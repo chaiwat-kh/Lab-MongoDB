@@ -1,0 +1,9 @@
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\bin\Debug\lib\MongoDB.Bson.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\bin\Debug\lib\MongoDB.Driver.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\bin\Debug\DomainLib.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\bin\Debug\DomainLib.pdb
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\bin\Debug\MongoDB.Bson.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\bin\Debug\MongoDB.Driver.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\obj\Debug\DomainLib.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\DomainLib\obj\Debug\DomainLib.pdb

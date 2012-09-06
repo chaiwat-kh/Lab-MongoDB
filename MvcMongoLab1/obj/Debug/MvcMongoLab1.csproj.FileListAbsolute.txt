@@ -1,0 +1,7 @@
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\bin\MvcMongoLab1.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\bin\MvcMongoLab1.pdb
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\bin\EntityFramework.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\bin\EntityFramework.xml
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\obj\Debug\MvcMongoLab1.dll
+D:\Documents and Settings\chaiwat.kh\My Documents\Visual Studio 2010\Projects\MongoLab\MvcMongoLab1\obj\Debug\MvcMongoLab1.pdb
